@@ -1,0 +1,46 @@
+#outer{
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+     padding: 20px;
+     width: 100%;
+     column-gap: 120px;
+ }
+
+#highlight{
+    display: grid;
+    grid-template-columns: 120px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    padding-top: 30px;
+    width: 100%;
+    column-gap: 30px;
+    text-align: center;
+    padding-left: 160px;
+    padding-bottom: 10px;
+    background-color: white;
+ }
+
+ #photo{
+    display: grid;
+    grid-template-columns: auto auto;
+     padding-left: 190px;
+     width: 100%;
+     column-gap: 20px;
+ }
+
+ #carouselExampleSlidesOnly{
+    width: 80%;
+    padding-left: 390px;
+ }
+
+ #final{
+    display: grid;
+    grid-template-columns: 90px 150px 180px 150px 150px 150px;
+    column-gap: 15px;
+    row-gap: 5px;
+    padding-left: 180px;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    font-size: small;
+    padding-bottom: 100px;
+}
+
